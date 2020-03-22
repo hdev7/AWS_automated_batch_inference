@@ -9,3 +9,7 @@ Overview:
 - The scored data is loaded back into the output bucket and the EC2 instances will be stopped as soon as this happens. 
 - This effort reduced around 90% costs on AWS Services
 - This architecture is event driven and serverless. Hence, no supervision requried.
+
+Architecture Demo:
+
+![Architecture Demo](https://github.com/hdev7/hdev7.github.io/blob/master/images/aws_project_demo.png)
