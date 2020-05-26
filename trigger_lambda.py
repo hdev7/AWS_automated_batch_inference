@@ -3,7 +3,7 @@ import boto3
 # Enter the region your instances are in. Include only the region without specifying Availability Zone; e.g.; 'us-east-1'
 region = 'us-east-1'
 # Enter your instances here: ex. ['X-XXXXXXXX', 'X-XXXXXXXX']
-instances = ['i-082368cd55bcd7448']
+instances = ['X-XXXXXXXX']
 
 def trigger_handler(event, context):
     ec2 = boto3.client('ec2', region_name=region)
