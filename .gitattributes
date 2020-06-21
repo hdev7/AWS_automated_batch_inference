@@ -1,2 +1,2 @@
  *.py* linguist-language=Python
-  *.ip* linguist-language=Jupyter Notebooks
+  *.ipynb* linguist-language=JupyterNotebooks
